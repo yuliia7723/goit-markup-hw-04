@@ -344,6 +344,21 @@ background: var(--color-header)
   padding-top: 30px;
   padding-bottom: 30px;
  }
+
+.team-set:nth-child(1) {
+box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.team-set:nth-child(2) {
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.team-set:nth-child(3) {
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.team-set:nth-child(3) {
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3)
+}
+
+
 .cos-icon-box {
    background: #F5F4FA;
 border-radius: 4px;
@@ -354,6 +369,15 @@ align-items: center;
 justify-content: center;
 
 }
+
+.cos-icon-box :hover {
+  color:var(--main-btn-color);
+  background-color: var(--second-btn-color);
+} 
+.cos-icon-box :focus {
+  background-color: var(--second-btn-color);
+}
+
 .icon {
   display: flex;
   align-items: center;
