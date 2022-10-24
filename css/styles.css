@@ -583,6 +583,16 @@ font-size: 16px;
 margin-bottom: 20px;
 margin-top: 4px;
 }
+.project-shadow {
+  -webkit-box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1);
+box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1); 
+}
+.project-shadow :hover {
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
+ -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
+ box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1); 
+}
 
 .box {
 border: 1px solid #EEEEEE;
