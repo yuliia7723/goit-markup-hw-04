@@ -135,10 +135,7 @@ margin-right: 93px;
   
   
   .header-icon {
-     fill: #757575;
-    fill-opacity: 0.7;
-  stroke: #757575;
-  stroke-width: 1px;
+  
   }
 .header-icon:hover {
    fill: #2196F3;
@@ -190,10 +187,8 @@ width: 696px;
   padding: 200px 0;
   max-width: 1600px;
 height: 600px;
-outline: 1px splid black;
 margin: 0 auto;
-background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4));
-background-image: url("../img/work-4-1.jpg");
+background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url("../img/work-4-1.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -337,12 +332,16 @@ letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 16px;
  }
-
+ .team-card {
+  padding: 30px 0;
+ }
+ 
  .team-list {
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 background: var(--color-header)
  }
+ 
 
 
 .team-set:nth-child(1) {
@@ -362,7 +361,7 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 Height:44px;
 }
 .soc-icon {
-  fill:  #AFB1B8;
+  fill: currentColor;
 
 }
 .soc-icon :hover {
@@ -381,8 +380,8 @@ justify-content: center;
 
 }
 .soc-linc {
-color: #757575;
-border: radius 50%;
+color: #AFB1B8;
+border-radius: 50%;
 Width:100%;
 Height:100%;
 display: flex;
@@ -391,6 +390,11 @@ justify-content: center;
 
 }
 .soc-linc :hover {
+  color: var(--color-header);
+background-color: #2196F3;
+}
+.soc-linc :focus {
+ color:  var(--color-header);
 background-color: #2196F3;
 }
 
@@ -411,26 +415,24 @@ justify-content: center;
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-bottom: 30px;
-  margin-top: 16px;
+  Width: 170px;
+Height: 92px;
+  
 }
 .client {
-   padding-bottom: 0;
+  
 }
 .clent-list {
   display: flex;
 gap: 30px;
-padding-bottom: 94px;
 }
+
 .client-item {
   width: 170px;
 }
 .client-box {
-   background:  #F5F5F5;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-Width: 170px;
-Height: 92px;
  display: flex;
   align-items: center;
 justify-content: center;
