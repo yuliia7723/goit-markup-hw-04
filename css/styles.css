@@ -339,12 +339,11 @@ letter-spacing: 0.03em;
  .team-list {
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-background: var(--color-header)
+background: var(--color-header);
+width: calc((100% - 90px) / 4);
  }
  
-
-
-.team-set:nth-child(1) {
+ .team-set:nth-child(1) {
 box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 .team-set:nth-child(2) {
@@ -357,8 +356,7 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3)
 }
 .icon-link-team {
-  Width:44px;
-Height:44px;
+ 
 }
 .soc-icon {
   fill: currentColor;
@@ -382,8 +380,8 @@ justify-content: center;
 .soc-linc {
 color: #AFB1B8;
 border-radius: 50%;
-Width:100%;
-Height:100%;
+Width: 44px;;
+Height: 44px;;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -415,8 +413,8 @@ justify-content: center;
   display: flex;
   justify-content: center;
   gap: 10px;
-  Width: 170px;
-Height: 92px;
+ align-items: center;
+
   
 }
 .client {
