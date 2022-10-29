@@ -132,11 +132,7 @@ margin-right: 93px;
     margin-right: 10px;
    
   }
-  
-  
-  .header-icon {
-  
-  }
+
 .header-icon:hover {
    fill: #2196F3;
 }
@@ -355,10 +351,14 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3)
 }
 .icon-link-team {
- 
+  width: 44px;
+  height: 44px;
 }
+
 .soc-icon {
   fill: currentColor;
+  width: 20px;
+  height:20px ;
  
 }
 .soc-icon :hover,.soc-ico:focus{
@@ -380,9 +380,9 @@ justify-content: center;
 
 .soc-linc {
 color: #AFB1B8;
-border-radius: 0px 0px 4px 4px;
-Width: 20px;
-Height: 20px;
+border-radius: 50%;
+Width: 100%;
+Height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -455,12 +455,7 @@ height: 100%;
   border-color: #2196F3;
   color: #2196F3;
 }
-.detal-icon {
-  fill:#AFB1B8;
-}
-.detal-icon:hover {
-fill: #2196F3;
-}
+
 
 
 
