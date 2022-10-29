@@ -568,6 +568,14 @@ letter-spacing: 0,03;
 
 /* filter */
 
+
+.button {
+  display: flex;
+ gap: 8px;
+ justify-content: center;
+
+}
+
 .button-filter {
  font-family:inherit;
   font-size: 16px;
@@ -584,19 +592,16 @@ padding-bottom: 6px;
 margin-right: 8px;
 border-radius: 4px;
 border: none;
+transition: 2s linear;
  
 }
 
-.button {
-  display: flex;
- gap: 8px;
- justify-content: center;
 
-}
 
 .button-filter:hover {
 background-color: var(--second-btn-color);
   color: var(--main-btn-color);
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   
 }
 .button-filter:focus {
@@ -617,9 +622,6 @@ background-color: var(--second-btn-color);
 
 .project-item {
   width: calc((100%- 60px) /3);
-}
-.project {
-  gap: 30px;
 }
 
 
@@ -645,14 +647,10 @@ margin-bottom: 20px;
 margin-top: 4px;
 }
 .project-shadow {
-  -webkit-box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1);
--moz-box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1);
-box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-shadow :hover {
-  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
- -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 0px rgba(0, 0, 0, 0.3); 
- box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1); 
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .box {
