@@ -384,7 +384,7 @@ display: flex;
 
 
 
-.clent-list {
+.client-list {
   display: flex;
 gap: 30px;
   margin-top: 50px;
@@ -411,7 +411,13 @@ width: 170px;
   border-color: #2196F3;
   color: #2196F3;
 }
+.border-box {
+  border: 1px solid #AFB1B8;
+}
 
+.border-box:hover {
+  border-color: #2196F3;
+}
  
 
 
@@ -421,6 +427,21 @@ width: 170px;
 
 
 /* footer*/
+
+
+.footer {
+   background-color: var(--background-footer-color);
+   padding-top: 60px;
+   padding-bottom: 60px;}
+
+   
+.logo-web-footer {
+  color: var(--color-logo-footer);
+  font-family : Raleway;
+line-height: calc( 31 / 26 );
+letter-spacing: 0.03em;
+font-weight: 700;
+  font-size: 26p;}
 
 .footer-contact-link {
   color: rgb(255, 255, 255, 0.6);
@@ -435,41 +456,12 @@ font-style: normal;
    color:var(--second-btn-color);
 }
 
-.footer {
-   background-color: var(--background-footer-color);
-   padding-top: 60px;
-   padding-bottom: 60px;
-}
-
-.logo-web-footer {
-  color: var(--color-logo-footer);
-  font-family : Raleway;
-line-height: calc( 31 / 26 );
-letter-spacing: 0.03em;
-font-weight: 700;
-font-size: 26px;
-}
-.contact-address {
-  margin-top: 20px;
-}
 .footer-nav-link {
   margin-top: 9px;
 }
 .footer-nav-tel {
   margin-top: 9px;
 }
-
-.soc-icon-footer {
-  fill: #FFFFFF;
-}
-.footer-icon-soc:hover,
-.footer-icon-soc:focus {
-  fill: #2196F3;
-}
-
-
-
-/* addres */
 
 .footer-contact-address-link {
 color: var(--color-header);
@@ -481,6 +473,11 @@ letter-spacing: 0.03em;
  margin-right: 0;
     margin-bottom: 20px;
 }
+.contact-address {
+  margin-top: 20px;
+}
+
+
 .footer-link-ikon {
   display: flex;
   gap: 10px;
@@ -498,17 +495,21 @@ letter-spacing: 0.03em;
     border-radius: 50%;
     background-color: #43444D;
   }
-  .footer-list-ikon {
+  .soc-icon-footer:hover,
+.soc-icon-footer:focus {
+  fill: #2196F3;
+}
+.soc-icon-footer {
+  fill: #FFFFFF;
+}
+
+.footer-list-ikon {
     background: rgba(255, 255, 255, 0.1);
   }
   .footer-nav-address {
      margin-bottom: 9px;
   }
-  .footer-level {
-    padding-bottom: 100px;
-  }
-
-
+ 
 .footer-connect {
   font-size: 14px;
 letter-spacing: 0,03;
@@ -517,13 +518,6 @@ letter-spacing: 0,03;
  margin-bottom: 20px;
  color:  #FFFFFF;
 }
-.footer-container {
-  justify-content: center;
-  align-items: baseline;
-  display: flex;
-  gap: 70px;
-}
-
 
 
 
