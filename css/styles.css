@@ -61,7 +61,7 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-outline: 2px;
+
 }
 .section {
   padding-top: 94px ;
@@ -341,9 +341,18 @@ width: calc((100% - 90px) / 4);
  
 
 .soc-icon {
-  fill: #AFB1B8;
- 
-}
+  fill: currentColor;
+ }
+ .soc-icon :hover{
+  background-color: #2196F3;
+  color: #EEEEEE;
+ }
+ .soc-icon :focus {
+  background-color: #2196F3;
+  color: #EEEEEE;
+ }
+
+
 .soc-linc {
 color: #AFB1B8;
 border-radius: 50%;
@@ -354,21 +363,16 @@ align-items: center;
 justify-content: center;
 width: 44px;
   height: 44px;
-
+  background-color: #EEEEEE;
 }
-.soc-linc :hover { 
-background-color: #2196F3;
+.soc-linc :hover {
+  background-color: #2196F3;
+  color: #EEEEEE;
 }
 .soc-linc :focus {
-background-color: #2196F3;
+  background-color: #2196F3;
+  color: #EEEEEE;
 }
-
-.soc-icon:hover .soc-linc,
-  .soc-icon:focus .soc-linc {
-fill: #f5f4fa;
-  }
- 
-
 
 .icon-list {
 display: flex;
@@ -417,6 +421,7 @@ width: 170px;
 
 .border-box:hover {
   border-color: #2196F3;
+  color: #2196F3;
 }
  
 
@@ -441,7 +446,7 @@ width: 170px;
 line-height: calc( 31 / 26 );
 letter-spacing: 0.03em;
 font-weight: 700;
-  font-size: 26p;}
+  font-size: 26px;}
 
 .footer-contact-link {
   color: rgb(255, 255, 255, 0.6);
@@ -483,6 +488,7 @@ letter-spacing: 0.03em;
   gap: 10px;
    justify-content: center;
      align-items: center;
+     
   }
   .footer-icon-soc {
       width: 100%;
@@ -495,12 +501,17 @@ letter-spacing: 0.03em;
     border-radius: 50%;
     background-color: #43444D;
   }
+  .footer-icon-soc:hover {
+    background-color: #2196F3;
+color: #EEEEEE;
+  }
   .soc-icon-footer:hover,
 .soc-icon-footer:focus {
-  fill: #2196F3;
+  background-color: #2196F3;
+  color: #EEEEEE;
 }
 .soc-icon-footer {
-  fill: #FFFFFF;
+  fill:#FFFFFF;
 }
 
 .footer-list-ikon {
@@ -517,6 +528,14 @@ letter-spacing: 0,03;
   text-transform: uppercase;
  margin-bottom: 20px;
  color:  #FFFFFF;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  margin-right: 70px;
+}
+.footer-contact {
+  margin-right: 70px;
 }
 
 
