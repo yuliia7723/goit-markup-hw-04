@@ -292,6 +292,29 @@ margin-bottom: 50px;
  display: flex;
  gap: 30px;
 }
+.box-label {
+position: absolute;
+}
+.box-dextop {
+  width: 370px;
+height: 70px;
+background: rgba(47, 48, 58, 0.8);
+display: flex;
+
+top: 225px;
+right: 0;
+position: relative;
+
+}
+.title-lable {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: calc( 16/ 14 );
+  font-size: 14px;
+   text-align: center;
+   color: var(--color-container);
+   
+}
 
 /* team */
 
